@@ -1,0 +1,9 @@
+services:
+  dev-db:
+    image: postgres:16
+    ports:
+      - 5457:5432
+    environment:
+      POSTGRES_USER: johndoe
+      POSTGRES_PASSWORD: andompassword
+      POSTGRES_DB: public
